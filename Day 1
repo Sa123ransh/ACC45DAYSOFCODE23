@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int T;
+    cout<<"enter test cases"<<endl;
+    cin>>T;
+
+    for(int i=1;i<=T;i++)
+    {
+        int X;
+        cout<<"water drank"<<endl;
+        cin>>X;
+    
+    if(X>=2000)
+    {
+       cout<<"YES"<<endl; 
+    }else{
+        cout<<"NO"<<endl;
+    }
+}
+}
