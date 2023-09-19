@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int X,Y,Z,T,p;
+    
+    cout<<"enter test cases to perform";
+    cin>>T;
+    
+    for(int i=1; i<=T; i++)
+    {
+        cout<<"Number of 5 rupee coins"<<endl;
+        cin>>X;
+        
+        cout<<"Number of 10 rupee coins"<<endl;
+        cin>>Y;
+        
+        cout<<"cost of each chocolate"<<endl;
+        cin>>Z;
+        
+        p=(X*5+Y*10)/Z;
+        cout<<"the maximum number of chocolate you can buy for chefina :"<<p<<endl;
+        
+        
+    }
+    return 0;
+    
+}
+
