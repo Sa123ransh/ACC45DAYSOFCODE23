@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int T;
+    cout<<"enter test cases to perform";
+    cin>>T;
+
+    for(int i=1; i<=T; i++)
+    {
+        int X,Y;
+
+        cout<<"no of student in the class"<<endl;
+        cin>>X;
+
+        cout<<"the number of chairs chef already has"<<endl;
+        cin>>Y;
+
+        if(X-Y<=0)
+        {
+            cout<< 0 <<endl;
+        }else{
+            cout<< X-Y <<endl;
+        }
+    }
+        return 0;
+
+
+
+    
+
+
+}
