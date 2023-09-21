@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int T;
+    cout<<"enter test cases to perform";
+    cin>>T;
+
+    
+    for(int i=1; i<=T; i++)
+    {
+        int X,Y;
+        cin>>X>>Y;
+        
+        if(Y>X)
+        {
+            cout<< X + 2*(Y - X);
+        }
+        else{
+            cout<<Y;
+            cout<<endl;
+        }
+    }
+    return 0;
+}
