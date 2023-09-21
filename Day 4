@@ -1,0 +1,76 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T;
+  
+cin >> T;
+  
+while (1 <= T)
+    {
+      
+float l, v1, v2;
+      
+cin >> l >> v1 >> v2;
+      
+int a = l / v1;
+      
+int b = l / v2;
+      
+float c = l / v1;
+      
+float d = l / v2;
+      
+int p = -1;
+      
+if (c > a)
+	{
+	  
+a++;
+	  
+v1 = a;
+	
+}
+      
+      else
+	{
+	  
+v1 = c;
+	
+}
+      
+if (d > b)
+	{
+	  
+b++;
+	  
+v2 = b;
+	
+}
+      
+      else
+	{
+	  
+v2 = d;
+	
+}
+      
+int k = v2 + 1;
+      
+if (v1 >= k)
+	{
+	  
+cout << v1 - k;
+	
+}
+      
+      else
+	{
+	  
+cout << p;
+	
+}
+   
