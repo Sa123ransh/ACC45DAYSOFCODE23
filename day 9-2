@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int T;
+
+
+cin>>T;
+
+for(int i=1; i<=T; i++)
+{
+
+int a,b,c,d,e,P;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    cin>>d;
+    cin>>e;
+    cin>>P;
+         if((a+b+c+d+e)*P>120){
+             cout<<"Yes"<<endl;
+         }
+         else{
+             cout<<"No"<<endl;
+}
+}
+	return 0;
+}
