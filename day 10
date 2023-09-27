@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int i = 0, t;
+  cin >> t;
+  while (i < t)
+    {
+      int A, B, C, D, E;
+      cin >> A >> B >> C >> D >> E;
+      if (A + B <= D || B + C <= D || A + C <= D)
+	{
+	  if (C <= E || A <= E || B <= E)
+	    {
+	      cout << "YES" << endl;
+
+	    }
+	  else
+	    {
+	      cout << "NO" << endl;
+
+	    }
+	}
+      i++;
+    }
+
+  return 0;
+}
