@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	
+	for(int i=0; i<t; i++)
+	{
+	    int N,sum=0;
+	
+	for(int j=0;j<5; j++)
+	{
+	    cin>>N;
+	    sum=sum+N;
+	}
+	    
+	    if(sum==0)
+	    {
+	        cout<<"Beginner"<<endl;
+	    }
+	    else if(sum==1)
+	    {
+	        cout<<"junior developer"<<endl;
+	    }
+	    else if(sum==2)
+	    {
+	        cout<<"Middle developer"<<endl;
+	    }
+	    else if(sum==3)
+	    {
+	        cout<<"senior developer"<<endl;
+	    }
+	    else if(sum==4)
+	    {
+	        cout<<"Hacker"<<endl;
+	    }
+	    else if(sum==5)
+	    {
+	        cout<<"jeff Dean"<<endl;
+	    }
+	   
+    }
+    return 0;
+}
